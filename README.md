@@ -13,8 +13,7 @@
 ## Допомога
 Якщо бажаєте допомогти проекту - пишіть на gmonlineua@gmail.com або в Discord VladDracula#9198. А ще можете поставити зірочку моєму проекту)
 
-## Корисні Ресурси
-YouTube:
+## Інше
  - [Голосарій](https://docs.google.com/spreadsheets/d/1OOY6HmanTmcQId_sroPn5PoPKIw-hz5rPllHMyVlo94/edit?usp=sharing)
  - [Проект в Crowdin](https://crowdin.com/project/dndua)
  - [Моя збірка корисних посилань](https://github.com/GMonlineua/community-links-ua)

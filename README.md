@@ -6,7 +6,7 @@
 Щоб встановити цей модуль:
 1.  На екрані Foundry "Configuration and Setup", нажміть "Add-on Modules"
 2.  Виберіть "Install Module"
-3.  В полі "Manifest URL" вставте наступне посилання: ``
+3.  В полі "Manifest URL" вставте наступне посилання: `https://raw.githubusercontent.com/GMonlineua/ua-dnd-translation/master/module.json`
 4.  Нажміть 'Install' і почекайте поки встановлення завершиться
 5.  Не забудьте включити модуль у грі за допомогою кнопки "Manage Module"
 

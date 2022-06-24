@@ -1,0 +1,44 @@
+{
+  "name": "ua-dnd-translation",
+  "title": "UA DnD Translation",
+  "description": "Даний модуль добавляє український переклад D&D, а також добавляє компендіуми з SRD контентом.",
+  "author": "GMonline",
+  "url": "https://github.com/GMonlineua/ua-dnd-translation",
+  "version": "0.6",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9.269",
+  "system": ["dnd5e"],
+  "languages": [
+      {
+        "lang": "ua",
+        "name": "Ukrainian",
+        "path": "lang/ua.json"
+      }
+  ],
+  "packs": [
+      {
+        "name": "race-ua",
+        "label": "Раси",
+        "path": "./packs/rasi.db",
+        "type": "Item"
+      },
+      {
+        "name": "race-features-ua",
+        "label": "Расові вміння",
+        "path": "./packs/rasovi-vminnya.db",
+        "type": "Item"
+      },
+      {
+        "name": "items-ua",
+        "label": "Предмети",
+        "path": "./packs/predmeti.db",
+        "type": "Item"
+      },
+      {
+        "name": "trade-goods-ua",
+        "label": "Товари",
+        "path": "./packs/tovari.db",
+        "type": "Item"
+      }
+  ]
+}

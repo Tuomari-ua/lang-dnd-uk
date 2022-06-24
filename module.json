@@ -4,6 +4,8 @@
   "description": "Даний модуль добавляє український переклад D&D, а також добавляє компендіуми з SRD контентом.",
   "author": "GMonline",
   "url": "https://github.com/GMonlineua/ua-dnd-translation",
+  "manifest": "https://raw.githubusercontent.com/GMonlineua/ua-dnd-translation/master/module.json",
+  "download": "https://github.com/GMonlineua/ua-dnd-translation/archive/refs/heads/main.zip",
   "version": "0.6",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9.269",

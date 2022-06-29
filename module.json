@@ -6,7 +6,7 @@
   "url": "https://github.com/GMonlineua/ua-dnd-translation",
   "manifest": "https://raw.githubusercontent.com/GMonlineua/ua-dnd-translation/master/module.json",
   "download": "https://github.com/GMonlineua/ua-dnd-translation/archive/refs/heads/master.zip",
-  "version": "0.6",
+  "version": "0.7",
   "minimumCoreVersion": "9",
   "compatibleCoreVersion": "9.269",
   "system": ["dnd5e"],
@@ -19,27 +19,33 @@
   ],
   "packs": [
       {
-        "name": "race-ua",
+        "name": "classes-srd-ua",
+        "label": "Класи",
+        "path": "./packs/classes.db",
+        "type": "Item"
+      },
+      {
+        "name": "race-srd-ua",
         "label": "Раси",
-        "path": "./packs/rasi.db",
+        "path": "./packs/races.db",
         "type": "Item"
       },
       {
-        "name": "race-features-ua",
+        "name": "race-features-srd-ua",
         "label": "Расові вміння",
-        "path": "./packs/rasovi-vminnya.db",
+        "path": "./packs/race-features.db",
         "type": "Item"
       },
       {
-        "name": "items-ua",
+        "name": "items-srd-ua",
         "label": "Предмети",
-        "path": "./packs/predmeti.db",
+        "path": "./packs/items.db",
         "type": "Item"
       },
       {
-        "name": "trade-goods-ua",
+        "name": "trade-goods-srd-ua",
         "label": "Товари",
-        "path": "./packs/tovari.db",
+        "path": "./packs/trade-goods.db",
         "type": "Item"
       }
   ]

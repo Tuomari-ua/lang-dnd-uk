@@ -31,7 +31,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 14.Reformation: If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
 
 15.COPYRIGHT NOTICE
-UA Items Translation © 2022, GMonlineua
+UA D&D Translation © 2022, [GMonlineua](https://github.com/GMonlineua)
 
 Open Game Content: All races, class, items, spells, monsters.
 

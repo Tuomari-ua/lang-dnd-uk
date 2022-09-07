@@ -8,7 +8,7 @@
   "download": "https://github.com/GMonlineua/ua-dnd-translation/archive/refs/heads/master.zip",
   "version": "0.7",
   "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9.269",
+  "compatibleCoreVersion": "10.284",
   "system": ["dnd5e"],
   "languages": [
       {

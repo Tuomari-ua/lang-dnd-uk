@@ -1,52 +1,67 @@
 {
-  "name": "ua-dnd-translation",
-  "title": "UA DnD Translation",
-  "description": "Даний модуль добавляє український переклад D&D, а також добавляє компендіуми з SRD контентом.",
-  "author": "GMonline",
-  "url": "https://github.com/GMonlineua/ua-dnd-translation",
-  "manifest": "https://raw.githubusercontent.com/GMonlineua/ua-dnd-translation/master/module.json",
-  "download": "https://github.com/GMonlineua/ua-dnd-translation/archive/refs/heads/master.zip",
-  "version": "0.7",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "10.284",
+  "id": "lang-dnd-uk",
+  "title": "Translation: Ukrainian [DnD 5e]",
+  "description": "Український переклад D&D, а також компендіуми з SRD контентом.",
+  "authors": [
+    {
+    "name": "GMonline"
+    }
+  ],
+  "version": "0.8",
+  "compatibility": {
+    "minimum": "9",
+    "verified": "10"
+  },
   "system": ["dnd5e"],
   "languages": [
-      {
-        "lang": "ua",
-        "name": "Ukrainian",
-        "path": "lang/ua.json"
-      }
+    {
+      "lang": "uk",
+      "name": "Ukrainian",
+      "path": "lang/uk.json"
+    }
   ],
   "packs": [
-      {
-        "name": "classes-srd-ua",
-        "label": "Класи",
-        "path": "./packs/classes.db",
-        "type": "Item"
-      },
-      {
-        "name": "race-srd-ua",
-        "label": "Раси",
-        "path": "./packs/races.db",
-        "type": "Item"
-      },
-      {
-        "name": "race-features-srd-ua",
-        "label": "Расові вміння",
-        "path": "./packs/race-features.db",
-        "type": "Item"
-      },
-      {
-        "name": "items-srd-ua",
-        "label": "Предмети",
-        "path": "./packs/items.db",
-        "type": "Item"
-      },
-      {
-        "name": "trade-goods-srd-ua",
-        "label": "Товари",
-        "path": "./packs/trade-goods.db",
-        "type": "Item"
-      }
+    {
+      "name": "heroes-uk",
+      "label": "Стартові Герої",
+      "path": "./packs/heroes.db",
+      "type": "Actor"
+    },
+    {
+      "name": "classes-srd-uk",
+      "label": "Класи",
+      "path": "./packs/classes.db",
+      "type": "Item"
+    },
+    {
+      "name": "class-features-srd-uk",
+      "label": "Класові Вміння",
+      "path": "./packs/class-features.db",
+      "type": "Item"
+    },
+    {
+      "name": "race-srd-uk",
+      "label": "Раси",
+      "path": "./packs/races.db",
+      "type": "Item"
+    },
+    {
+      "name": "race-features-srd-uk",
+      "label": "Расові Вміння",
+      "path": "./packs/race-features.db",
+      "type": "Item"
+    },
+    {
+      "name": "items-srd-uk",
+      "label": "Предмети",
+      "path": "./packs/items.db",
+      "type": "Item"
+    },
+    {
+      "name": "trade-goods-srd-uk",
+      "label": "Товари",
+      "path": "./packs/trade-goods.db",
+      "type": "Item"
+    }
   ]
 }

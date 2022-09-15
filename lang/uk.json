@@ -79,7 +79,7 @@
   "DND5E.ActionWarningNoToken": "Ви повинні мати один або більше контрольованих токенів для того, щоб використовувати цю опцію.",
   "DND5E.ActorWarningInvalidItem": "{itemType} не може бути додано до {actorType}.",
   "DND5E.Add": "Додати",
-  "DND5E.AddEmbeddedItemPromptHint": "Чи бажаєте ви додати ці предмети до листа персонажа?",
+  "DND5E.AddEmbeddedItemPromptHint": "Чи бажаєте ви додати ці предмети до аркуша персонажа?",
   "DND5E.SelectItemsPromptTitle": "Виберіть Предмети",
   "DND5E.AdvancementChoices": "варіанти",
   "DND5E.AdvancementClassRestriction": "Обмеження Класу",
@@ -640,7 +640,7 @@
   "DND5E.Polymorph": "Поліморф",
   "DND5E.PolymorphAcceptSettings": "Особливі Налаштування",
   "DND5E.PolymorphKeepBio": "Залишити біографію",
-  "DND5E.PolymorphKeepClass": "Залишити бонус майстерності (залишає клас в листі персонажа)",
+  "DND5E.PolymorphKeepClass": "Залишити бонус майстерності (залишає клас в аркуші персонажа)",
   "DND5E.PolymorphKeepFeats": "Залишити Уміння",
   "DND5E.PolymorphKeepItems": "Залишити Предмет",
   "DND5E.PolymorphKeepMental": "Зберігати значення ментальних характеристик (Інт, Муд, Хар)",
@@ -710,10 +710,10 @@
   "DND5E.SenseTremorsense": "Відчуття Вібрації",
   "DND5E.SenseTruesight": "Істинний Зір",
   "DND5E.SenseSpecial": "Особливі Відчуття",
-  "DND5E.SheetClassCharacter": "Стандартний 5e Лист Персонажа",
-  "DND5E.SheetClassNPC": "Стандартний 5e Лист НІП",
-  "DND5E.SheetClassVehicle": "Стандартний 5e Лист Транспорту",
-  "DND5E.SheetClassItem": "Стандартний 5e Лист Елементу",
+  "DND5E.SheetClassCharacter": "Стандартний 5e Аркуш Персонажа",
+  "DND5E.SheetClassNPC": "Стандартний 5e Аркуш НІП",
+  "DND5E.SheetClassVehicle": "Стандартний 5e Аркуш Транспорту",
+  "DND5E.SheetClassItem": "Стандартний 5e Аркуш Елементу",
   "DND5E.SavingThrow": "Рятівний Кидок",
   "DND5E.SaveDC": "КС {dc} {ability}",
   "DND5E.SavePromptTitle": "Рятівний Кидок {ability}",
@@ -1297,10 +1297,10 @@
   },
   "TIDY5E.Settings.npsSheetWidth": {
     "name": "Стандартна ширина листа НІПа.",
-    "hint": "The width of the NPC sheet in pixels, requires a refresh to take effect (default 740)."
+    "hint": "Ширина аркуша НІПа в пікселях, потребує оновлення, щоб набути чинності (за замовчуванням 740)."
   },
   "TIDY5E.Settings.playerSheetWidth": {
-    "name": "Default player sheet width.",
+    "name": "Стандартна ширина аркуша гравця.",
     "hint": "The width of the player sheet in pixels, requires a refresh to take effect (default 740)."
   },
   "TIDY5E.Settings.vehicleSheetWidth": {

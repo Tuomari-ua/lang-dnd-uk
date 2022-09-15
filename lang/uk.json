@@ -912,7 +912,7 @@
   "DND5E.VersatileDamage": "Варіативне Пошкодження",
   "DND5E.VsDC": "з КС.",
   "DND5E.WarnBadACFormula": "Введена формула РЗ не може бути розрахована.",
-  "DND5E.WarnCantAddMultipleAdvancements": "It is not currently possible to add multiple items with advancements to an actor at the same time. Please add them individually.",
+  "DND5E.WarnCantAddMultipleAdvancements": "Наразі неможливо додати кілька елементів з розвитком актора одночасно. Будь ласка, додайте їх індивідуально.",
   "DND5E.WarnMultipleArmor": "Надягнено більше одного комплекту обладунків. Розрахунок РЗ може бути некоректним.",
   "DND5E.WarnMultipleShields": "Надягнено більше одного комплекту обладунків. Розрахунок РЗ може бути некоректним.",
   "DND5E.WeaponImprov": "Імпровізована",
@@ -979,7 +979,7 @@
   "SETTINGS.5eMetricL": "Заміна системи ваг на метричні, а саме фунти на кілограми та оновити навантаження для розрахунку в метричній системі.",
   "SETTINGS.5eNoAdvancementsN": "Вимкнути автоматичне підвищення рівня",
   "SETTINGS.5eNoAdvancementsL": "Не показувати вікно підвищення рівня і вибору варіантів розвитку персонажа.",
-  "SETTINGS.5eNoExpL": "Забрати шкалу досвіду з листа персонажа.",
+  "SETTINGS.5eNoExpL": "Забрати шкалу досвіду з аркуша персонажа.",
   "SETTINGS.5eNoExpN": "Не Відстежувати Досвід",
   "SETTINGS.5eProfBonus": "PHB: Бонус (+2, +3, +4, +5, +6)",
   "SETTINGS.5eProfDice": "DMG: Креніль (1d4, 1d6, 1d8, 1d10, 1d12)",
@@ -1082,22 +1082,22 @@
   "TIDY5E.Settings.NpcLabel": "НІПи",
   "TIDY5E.Settings.VehicleLabel": "Транспорти",
   "TIDY5E.Settings.SheetMenu": {
-    "label": "Налаштування Листа",
-    "title": "Налаштування Листа Tidy5e"
+    "label": "Налаштування Аркуша",
+    "title": "Налаштування Аркуша Tidy5e"
   },
   "TIDY5E.Settings.TabPlayers": {
     "tabLabel": "Гравці",
-    "header": "Листи Персонажів Гравців"
+    "header": "Аркуші Персонажів Гравців"
   },
   "TIDY5E.Settings.TabNPCsVehicles": {
     "tabLabel": "НІПи/Траспорти",
-    "header": "Листи НІПа/Траспорта",
+    "header": "Аркуші НІПа/Траспорту",
     "labelNPCs": "НІПи",
     "labelVehicles": "Транспорти"
   },
   "TIDY5E.Settings.TabGM": {
     "tabLabel": "Опції ГМа",
-    "header": "Параметри Листів ГМа"
+    "header": "Параметри Аркушів ГМа"
   },
   "TIDY5E.Settings.TabModules": {
     "tabLabel": "Модулі",
@@ -1137,14 +1137,14 @@
   },
   "TIDY5E.Settings.ClassicControls": {
     "name": "Використовувати класичні елементи керування.",
-    "hint": "Always shows item controls and disable right click menu. Only applies for PC item/spell inventory in list layout."
+    "hint": "Завжди показувати елементи керування і вимкнути меню правої кнопки миші. Застосовується тільки для інвентара/заклинаннь ПГ у вигляді списку."
   },
   "TIDY5E.Settings.RollButtonsToCard": {
     "name": "Show midiQol Item Buttons in item's info card",
     "hint": "Per default roll buttons appear in the item's description. Enable to move them to the item's info card. Works in all layout modes."
   },
   "TIDY5E.Settings.TraitLabels": {
-    "name": "Show Trait Labels.",
+    "name": "Показати Мітки Здібностей.",
     "hint": "Вимкніть, щоб показувати лише піктограми для здібностей ПГ/НІП."
   },
   "TIDY5E.Settings.PlayerName": {
@@ -1184,31 +1184,31 @@
     "hint": "Увімкнути, щоб приховати накладення хітів для цього типу персонажа."
   },
   "TIDY5E.Settings.TraitsTogglePc": {
-    "name": "Toggle empty character traits.",
-    "hint": "By default empty traits are always visible. Enable to add a toggle button."
+    "name": "Увімкнути/вимкнути порожні здібності персонажа.",
+    "hint": "За замовчуванням порожні здібності завжди видимі. Увімкніть для додавання перемикачів."
   },
   "TIDY5E.Settings.TraitsMovedBelowResource": {
-    "name": "Move traits below resources.",
-    "hint": "Enable to move traits from the left side below resources."
+    "name": "Перемістити здібності під ресурси.",
+    "hint": "Увімкніть, щоб перемістити риси з лівої сторони аркуша під ресурси."
   },
   "TIDY5E.Settings.AmmoEquippedOnly": {
     "name": "Показувати тільки споряджені боєприпаси.",
     "hint": "Увімкніть, щоб показувати тільки споряджені боєприпаси в селекторі зброї."
   },
   "TIDY5E.Settings.TraitsAlwaysShown": {
-    "name": "Always show traits.",
-    "hint": "By default empty traits are hidden by a toggle button. Enable to never hide."
+    "name": "Завжди показувати здібності.",
+    "hint": "За замовчуванням порожні здібності приховані за допомогою кнопки перемикання. Увімкніть, щоб вони ніколи не були приховані."
   },
   "TIDY5E.Settings.SkillsAlwaysShown": {
     "name": "Завжди показувати навички.",
     "hint": "За замовчуванням навички, якими істота не володіє приховуються. Увімкніть, щоб ніколи їх не приховувати."
   },
   "TIDY5E.Settings.ActiveEffectsMarker": {
-    "name": "Show Active Effects Marker on items.",
-    "hint": "Enable if you want to see if items have active effects on them (only for list view)."
+    "name": "Показувати маркери активних ефектів над елементами.",
+    "hint": "Увімкніть, якщо ви хочете побачити, чи є елементи з активними ефектами на них (лише для перегляду у списку)."
   },
   "TIDY5E.Settings.RightClick": {
-    "name": "Disable right click context menu.",
+    "name": "Відключити контекстне меню ПКМ.",
     "hint": "In case of module conflicts or preference you can disable the right click context menu. Items will show a menu icon instead."
   },
   "TIDY5E.Settings.ExpandedSheet": {
@@ -1233,12 +1233,12 @@
     "hint": "Увімкніть, щоб запобігти випадковій зміні важливих, переважно статичних значень."
   },
   "TIDY5E.Settings.EditGmAlways": {
-    "name": "ГМ завжди може редагувати листи ПГ.",
-    "hint": "Увімкніть, щоб дозволити ГМ редагувати листи ПГ без перемикання замка листа."
+    "name": "ГМ завжди може редагувати аркуші ПГ.",
+    "hint": "Увімкніть, щоб дозволити ГМ редагувати аркуші ПГ без перемикання замка листа."
   },
   "TIDY5E.Settings.EditEffectsGmOnly": {
     "name": "Тільки ГМ може редагувати активні ефекти.",
-    "hint": "Увімкніть, щоб заборонити гравцям редагувати активні ефекти на їх листах. Вони все ще бачитимуть застосовані ефекти."
+    "hint": "Увімкніть, щоб заборонити гравцям редагувати активні ефекти на їхніх аркушах. Вони все ще бачитимуть застосовані ефекти."
   },
   "TIDY5E.Settings.QuantityAlwaysShown": {
     "name": "Завжди показувати кількість елементу.",
@@ -1256,7 +1256,7 @@
     "custom": "Користувацький - використовувати власні ефекти (потребує CUB)"
   },
   "TIDY5E.Settings.CustomExhaustionIcon": {
-    "name": "Custom exhaustion effect icon.",
+    "name": "Користувацькі іконки ефектів виснаження.",
     "hint": "Set your custom exhaustion effect icon by providing an image url. Only available when Exhaustion Effect is set to \"tidy 5e\" (e. g.: modules/tidy5e-sheet/images/exhaustion.svg)."
   },
   "TIDY5E.Settings.CustomExhaustionEffect": {
@@ -1296,15 +1296,15 @@
     "hint": "Увімкніть для того, щоб Ряткидки від Смерті і їхні результати стали видимі лише ГМу"
   },
   "TIDY5E.Settings.npsSheetWidth": {
-    "name": "Стандартна ширина листа НІПа.",
+    "name": "Стандартна ширина аркуша НІПа.",
     "hint": "Ширина аркуша НІПа в пікселях, потребує оновлення, щоб набути чинності (за замовчуванням 740)."
   },
   "TIDY5E.Settings.playerSheetWidth": {
     "name": "Стандартна ширина аркуша гравця.",
-    "hint": "The width of the player sheet in pixels, requires a refresh to take effect (default 740)."
+    "hint": "Ширина аркуша гравця в пікселях, потребує оновлення, щоб набути чинності (за замовчуванням 740)."
   },
   "TIDY5E.Settings.vehicleSheetWidth": {
-    "name": "Default vehicle sheet width.",
-    "hint": "The width of the vehicle sheet in pixels, requires a refresh to take effect (default 740)."
+    "name": "Стандартна ширина аркуша транспорту.",
+    "hint": "Ширина аркуша транспорту в пікселях, потребує оновлення, щоб набути чинності (за замовчуванням 740)."
   }
 }

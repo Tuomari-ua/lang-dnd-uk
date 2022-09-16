@@ -1115,19 +1115,19 @@
   },
   "TIDY5E.Settings.ItemCardsForNpcs": {
     "name": "Показ інформаційних карток для НІПів/траспорту.",
-    "hint": "Disable if you don't want the slide out item info cards for NPCs/vehicles."
+    "hint": "Вимкніть, якщо вам не потрібні інформаційні картки для НІПів/траспорту."
   },
   "TIDY5E.Settings.ItemCardsAreFloating": {
-    "name": "Item info cards float next to cursor.",
-    "hint": "Enable to detach item info cards from sheet and float them next to the cursor. Best to use with delay. Also useful when sheet is popped out."
+    "name": "Інформаційні картки елементів появляються поруч з курсором.",
+    "hint": "Увімкніть, щоб від’єднати інформаційні картки з арки та вони появлялися поруч з курсором. Найкраще використовувати з затримкою. Також корисно, коли лист відкривається в окремому вікні."
   },
   "TIDY5E.Settings.ItemCardsDelay": {
     "name": "Затримка показу інформаційних карток.",
-    "hint": "The Item Card will show when you hover an item for the value in milliseconds (0 = no delay, 300 is default)."
+    "hint": "Карта елемента буде показана, коли ви наводите курсор на елемент з затримкою (значення в мілісекундах: 0 = без затримки, 300 за замовчуванням)."
   },
   "TIDY5E.Settings.ItemCardsFixKey": {
-    "name": "Key to hold for Item Card interaction.",
-    "hint": "Enter a key (e.g.: x) to use for item card interaction. Can be any key except function keys (ctrl, alt, etc.)"
+    "name": "Клавіша, яку потрібно зажати для взаємодії з Картками Елемента.",
+    "hint": "Введіть клавішу (напр., x) для взаємодії з картками елемента. Може бути будь-яка клавіша, за винятком функціональних клавіш (ctrl, alt і т. д.)"
   },
   "TIDY5E.Settings.SheetTheme": {
     "name": "Кольорова тема Tidy5e.",
@@ -1140,8 +1140,8 @@
     "hint": "Завжди показувати елементи керування і вимкнути меню правої кнопки миші. Застосовується тільки для інвентара/заклинаннь ПГ у вигляді списку."
   },
   "TIDY5E.Settings.RollButtonsToCard": {
-    "name": "Show midiQol Item Buttons in item's info card",
-    "hint": "Per default roll buttons appear in the item's description. Enable to move them to the item's info card. Works in all layout modes."
+    "name": "Показувати кнопки об'єктів midiQol в інформаційних картах",
+    "hint": "Кнопки за замовчуванням з'являються в описі елемента. Увімкніть для переміщення на інформаційну картку. Працює в усіх режимах макету."
   },
   "TIDY5E.Settings.TraitLabels": {
     "name": "Показати Мітки Здібностей.",
@@ -1209,11 +1209,11 @@
   },
   "TIDY5E.Settings.RightClick": {
     "name": "Відключити контекстне меню ПКМ.",
-    "hint": "In case of module conflicts or preference you can disable the right click context menu. Items will show a menu icon instead."
+    "hint": "У випадку конфліктів модулів або нових уподобань, ви можете вимкнути контекстне меню. Елементи будуть зображені у вигляді піктограмного меню."
   },
   "TIDY5E.Settings.ExpandedSheet": {
-    "name": "Expanded Limited view for character sheets.",
-    "hint": "Displays the entire character sheet (minus the journal) to players with limited permission."
+    "name": "Розширений Обмежений доступ для аркушів персонажів.",
+    "hint": "Показувати весь аркуш персонажа (окрім журналу) для гравців з обмеженими дозволами."
   },
   "TIDY5E.Settings.PortraitStyle": {
     "name": "Круглий стиль портрета.",
@@ -1221,12 +1221,12 @@
     "all": "Всі актори",
     "pc": "ПГ",
     "npc": "НІПи/Траспорти",
-    "none": "none",
-    "default": "none"
+    "none": "нічого",
+    "default": "нічого"
   },
   "TIDY5E.Settings.HpOverlayBorder": {
-    "name": "Offset hit point overlay.",
-    "hint": "Enter offset value to compensate for portrait frames and prevent tinting."
+    "name": "Сховати накладання хітів.",
+    "hint": "Введіть зсув значення для компенсації вертикальних портретів та запобігання затінювання."
   },
   "TIDY5E.Settings.EditTotalLock": {
     "name": "Блокування чутливих полів.",
@@ -1257,32 +1257,32 @@
   },
   "TIDY5E.Settings.CustomExhaustionIcon": {
     "name": "Користувацькі іконки ефектів виснаження.",
-    "hint": "Set your custom exhaustion effect icon by providing an image url. Only available when Exhaustion Effect is set to \"tidy 5e\" (e. g.: modules/tidy5e-sheet/images/exhaustion.svg)."
+    "hint": "Встановіть свою іконку ефекту виснаження за допомогою посилання на зображення. Діє лише при включених Ефектах Виснаження \"tidy 5\" (наприклад: modules/tidy5e-sheet/images/exhaustion.svg)."
   },
   "TIDY5E.Settings.CustomExhaustionEffect": {
-    "name": "Custom CUB exhaustion effect name.",
-    "hint": "Set the name for your custom Exhaustion Effect - must be the same as defined in CUB but WITHOUT tier number. (e. g. \"Exhaustion\")",
-    "tiers": "Number of custom CUB exhaustion tiers. Default = 5",
-    "warning": "Can't find actor token to apply exhaustion effect to!"
+    "name": "Користувальницька назва ефекту виснаження CUB.",
+    "hint": "Встановіть назву для користувацького Ефекту Виснаження — має бути так само, як і в CUB, але без номера рівня (наприклад \"Виснаження\")",
+    "tiers": "Кількість користувальницьких рівнів виснаження CUB. За замовчуванням = 5",
+    "warning": "Не вдалося знайти токен персонажа, щоб застосувати ефект виснаження!"
   },
   "TIDY5E.Settings.ExhaustionDisabled": {
-    "name": "Disable exhaustion tracker.",
-    "hint": "If your campaign doesn't use exhaustion you can disable the tracker completely."
+    "name": "Вимкнути індикатор виснаження.",
+    "hint": "Якщо ваша кампанія не використовує виснаження, ви можете повністю вимкнути цей індикатор."
   },
   "TIDY5E.Settings.RestingForNpcs": {
-    "name": "Resting for NPCs.",
-    "hint": "Enable to shows the rest icon/buttons on NPC sheets."
+    "name": "Відпочинок НІПів.",
+    "hint": "Увімкніть, щоб показувати кнопки відпочинку на аркушах НІПів."
   },
   "TIDY5E.Settings.RestingForNpcsChat": {
-    "name": "Hide chat card for NPC rest.",
-    "hint": "Enable to hide the Chat Card for NPC rest (applies to GM and Players)."
+    "name": "Сховати в чаті картку з відпочинком НІПа.",
+    "hint": "Увімкніть, щоб приховати чат-картку для відпочинку НІПа (застосовується до ГМа і Гравців)."
   },
   "TIDY5E.Settings.LinkMarker": {
-    "name": "Mark linked/unlinked NPCs.",
-    "hint": "Adds a colored border and icon to linked/unliked NPC sheets.",
-    "default": "No link marker (default)",
-    "unlinked": "Highlight unlinked tokens",
-    "linked": "Highlight linked tokens",
+    "name": "Позначати прив'язаних/неприв'язаних НІПів.",
+    "hint": "Додає кольорову межу та іконку для прив'язаних/неприв'язаних аркушів НІПів.",
+    "default": "Немає маркера посилання (за замовчуванням)",
+    "unlinked": "Підсвічувати неприв'язані токени",
+    "linked": "Підсвічувати прив'язані токени",
     "both": "Підсвічувати зв'язані та непов’язані токени"
   },
   "TIDY5E.Settings.DefaultActionsTab": {

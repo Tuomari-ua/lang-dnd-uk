@@ -25,12 +25,6 @@
   ],
   "packs": [
     {
-      "name": "heroes-uk",
-      "label": "Стартові Герої",
-      "path": "./packs/heroes.db",
-      "type": "Actor"
-    },
-    {
       "name": "classes-srd-uk",
       "label": "Класи",
       "path": "./packs/classes.db",
